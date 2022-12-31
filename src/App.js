@@ -32,7 +32,7 @@ class App extends Component {
         </button>
         <p className="number">{count}</p>
         <input
-          placeholder="Enter guessed Number"
+          placeholder="Enter the guessed Number"
           type="text"
           onChange={this.guessedNumber}
         />
